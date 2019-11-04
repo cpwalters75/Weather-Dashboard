@@ -52,7 +52,8 @@ $( document ).ready(function() {
             url: "http://api.openweathermap.org/data/2.5/uvi/forecast?l"+userInput+"&appid=9ef5a8c0a9f360fcd04b4b54945cddee",
             success: function(response){
                 console.log(response);
-              
+        //$("#cardToday").text(response.list.main.0.temp);
+               
             }
 
             
